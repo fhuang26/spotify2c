@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fhuang.myproj0.TracksActivity">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/miGoBackToArtistSearch"
+        android:icon="@drawable/ic_back"
+        android:title="Go back to artist search"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/miTrackNowPlay"
+        android:icon="@mipmap/ic_now_play"
+        android:title="Now Playing"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/miTrackShareTrack"
+        android:icon="@mipmap/ic_share_track"
+        android:title="@string/menu_share_track"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/miTrackNotificationVisibility"
+        android:title="@string/menu_notification_visibility"
+        app:showAsAction="never"
+        />
+</menu>

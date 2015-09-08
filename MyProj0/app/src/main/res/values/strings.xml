@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spotify Streamer</string>
+    <string name="search">Search</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_spotify">Spotify Streamer</string>
+    <string name="artist_search_hint">artist name</string>
+    <string name="menu_share_track">Share Track</string>
+    <string name="menu_notification_visibility">Notification Visibility</string>
+    <string name="country_code_setting">Country Code Setting</string>
+    <string name="title_activity_tracks">Top 10 Tracks</string>
+    <string-array name="country_code_array">
+        <item>AU - Australia</item>
+        <item>CA - Cadana</item>
+        <item>CH - China</item>
+        <item>FR - France</item>
+        <item>TW - Taiwan</item>
+        <item>US - United States</item>
+    </string-array>
+    <string name="title_activity_player">PlayerActivity</string>
+
+</resources>

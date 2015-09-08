@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fhuang.myproj0.SpotifyActivity">
+
+    <item
+        android:id="@+id/miGoBackToMainMenu"
+        android:icon="@drawable/ic_back"
+        android:title="Go back to main menu"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/miSpotifyNotificationVisibility"
+        android:title="@string/menu_notification_visibility"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/miCountryCode"
+        android:title="@string/country_code_setting"
+        app:showAsAction="never" />
+</menu>
